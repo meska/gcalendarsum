@@ -13,6 +13,7 @@ Options:
   -s START, --start=START
   -e END, --end=END
 
+Example: ./gcalendarsum.py -u xxx@gmail.com -p xxx -c CalendarName -q Meeting -s 2010-06-01 -e 2010-06-30
 
 Require:
 python-dateutil
