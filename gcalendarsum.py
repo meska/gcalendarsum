@@ -111,7 +111,7 @@ if __name__=='__main__':
     calendar_service = gdata.calendar.service.CalendarService()
     calendar_service.email = options.username
     calendar_service.password = options.password
-    calendar_service.source = 'Aneva-CalendarSum-0.1'
+    calendar_service.source = 'Meska-CalendarSum-0.1'
     calendar_service.ProgrammaticLogin()
     cal = getCal(calendar_service,options.calendar)
     print "Total: %s" % SumHours(calendar_service,cal,options.query,options.start,options.end)
