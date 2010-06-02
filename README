@@ -2,6 +2,17 @@ gCalendarSum
 
 Simple script to sum hours from google calendar
 
+Usage: gcalendarsum.py [options]
+
+Options:
+  -h, --help show this help message and exit
+  -u USERNAME, --username=USERNAME
+  -p PASSWORD, --password=PASSWORD
+  -c CALENDAR, --calendar=CALENDAR
+  -q QUERY, --query=QUERY
+  -s START, --start=START
+  -e END, --end=END
+
 
 Require:
 python-dateutil
